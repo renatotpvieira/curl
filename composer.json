@@ -1,0 +1,24 @@
+{
+    "name": "renato/curl",
+    "require": {
+        "filp/whoops": "^2.14",
+        "monolog/monolog": "^2.8",
+        "guzzlehttp/guzzle": "^7.5"
+    },    
+    "authors": [
+        {
+            "name": "Renato T P Vieira",
+            "email": "renatotpvieira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Renato\\Curl\\": "src/"
+        }
+    },
+    "config":{
+        "plataform":{
+            "php":"7.3.1"
+        }
+    }
+}
